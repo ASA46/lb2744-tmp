@@ -1,5 +1,90 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <zoo>
-  <!-- The zoo is under construction. -->
+	<cages>
+		<cage>
+			<id>123584</id>
+			<name>Safari_1</name>
+			<size>2543</size>
+			<responsible>zookeeper_1</responsible>
+			<animals>
+				<animal>
+					<name>Giraf</name>
+					<amount>4</amount>
+				</animal>
+				<animal>
+					<name>Zebra</name>
+					<amount>8</amount>
+				</animal>
+				<animal>
+					<name>Antilop</name>
+					<amount>3</amount>
+				</animal>
+			</animals>
+		</cage>
+		<cage>
+			<id>98465</id>
+			<name>Safari_2</name>
+			<responsible>zookeeper_5</responsible>
+			<size>1200</size>
+			<animals>
+				<name>Lion</name>
+				<amount>5</amount>
+			</animals>
+		</cage>
+		<cage>
+			<id>12</id>
+			<name>Monkeys</name>
+			<responsible>zookeeper_3</responsible>
+			<size>150</size>
+			<animals>
+				<animal>
+					<name>Monkey1</name>
+					<amount>5</amount>
+				</animal>
+				<animal>
+					<name>Monkey2</name>
+					<amount>8</amount>
+				</animal>
+				<animal>
+					<name>Monkey3</name>
+					<amount>3</amount>
+				</animal>
+			</animals>
+		</cage>
+		<cage>
+			<id>9123</id>
+			<name>Snakes</name>
+			<responsible>zookeeper_4</responsible>
+			<size>80</size>
+			<animals>
+				<name>Big snake</name>
+				<amount>1</amount>
+			</animals>
+		</cage>
+	</cages>
+	<building area="Africa">
+		<cage_id>
+			<id>123584</id>
+			<id>98465</id>
+		</cage_id>
+	</building>
+	<building area="Asia">
+		<cage name="Monkeys">
+			<id>12</id>
+		</cage>
+		<cage name="Snakes">
+			<id>9123</id>
+		</cage>
+	</building>
+	<building area="Gangsti igennem bygninger">
+		<cage>
+			<id>98465</id>
+			<section>A2</section>
+		</cage>
+		<cage>
+			<id>123584</id>
+			<section>B1</section>
+		</cage>
+	</building>
 </zoo>
